@@ -1,5 +1,5 @@
 -- For using 'azul' profile:
--- require('azul')
+ require('azul')
 -- For using 'user' profile:
-require('user')
+-- require('user')
 

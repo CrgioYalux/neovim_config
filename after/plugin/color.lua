@@ -7,4 +7,14 @@
 -- vim.g.tokyonight_transparent = true
 -- vim.opt.background = "dark"
 
--- vim.cmd("colorscheme tokyonight")
+-- vim.cmd("colorscheme nightfox")
+-- vim.cmd("colorscheme moonfly")
+-- vim.cmd("colorscheme boo")
+-- vim.cmd[[colorscheme tokyonight]]
+vim.cmd("colorscheme zellner")
+
+-- require('boo-colorscheme').use({ theme = 'radioactive_waste' })
+-- require('boo-colorscheme').use({ theme = 'crimson_moonlight' })
+-- require('boo-colorscheme').use({ theme = 'forest_stream' })
+-- require('boo-colorscheme').use({ theme = 'sunset_cloud' })
+-- require('lualine').setup { options = { theme = "tokyoday" } }

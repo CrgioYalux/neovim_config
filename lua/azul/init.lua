@@ -34,6 +34,6 @@ require('nvim-treesitter.configs').setup {
     },
     -- vim.opt.runtimepath:append("/some/path/to/store/parsers") -- goes on set.lua if used 
 }
-require('nvim-tree').setup()
+-- require('nvim-tree').setup()
 require('azul.plugins.nvim-tree')
 
