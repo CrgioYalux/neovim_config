@@ -10,8 +10,8 @@
 -- vim.cmd("colorscheme nightfox")
 -- vim.cmd("colorscheme moonfly")
 -- vim.cmd("colorscheme boo")
--- vim.cmd[[colorscheme tokyonight]]
-vim.cmd("colorscheme zellner")
+vim.cmd[[colorscheme tokyonight]]
+-- vim.cmd("colorscheme zellner")
 
 -- require('boo-colorscheme').use({ theme = 'radioactive_waste' })
 -- require('boo-colorscheme').use({ theme = 'crimson_moonlight' })

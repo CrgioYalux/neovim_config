@@ -1,6 +1,6 @@
 require('azul.set')
 require('azul.remap')
-require('nvim-treesitter.configs').setup {
+require('nvim-treesitter.configs').setup({
     -- A directory to install the parsers into.
     -- If this is excluded or nil parsers are installed
     -- to either the package dir, or the "site" dir.
@@ -33,7 +33,7 @@ require('nvim-treesitter.configs').setup {
       additional_vim_regex_highlighting = false,
     },
     -- vim.opt.runtimepath:append("/some/path/to/store/parsers") -- goes on set.lua if used 
-}
+})
 -- require('nvim-tree').setup()
 require('azul.plugins.nvim-tree')
 
