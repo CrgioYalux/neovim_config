@@ -118,6 +118,7 @@ vim.o.smartcase = true
 vim.o.updatetime = 250
 vim.wo.signcolumn = 'yes'
 
+vim.clipboard="unnamedplus"
 -- relative number
 vim.o.relativenumber = true
 
@@ -134,6 +135,10 @@ vim.o.completeopt = 'menuone,noselect'
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
+vim.g.shiftwidth = 4
+vim.g.linespace = 4
+vim.g.tabstop = 4
+vim.g.softabstop = 4
 
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
