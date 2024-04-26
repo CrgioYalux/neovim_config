@@ -135,10 +135,6 @@ vim.o.completeopt = 'menuone,noselect'
 --  NOTE: Must happen before plugins are required (otherwise wrong leader will be used)
 vim.g.mapleader = ' '
 vim.g.maplocalleader = ' '
-vim.g.shiftwidth = 4
-vim.g.linespace = 4
-vim.g.tabstop = 4
-vim.g.softabstop = 4
 
 vim.o.linespace = 2
 vim.o.softtabstop = 4
